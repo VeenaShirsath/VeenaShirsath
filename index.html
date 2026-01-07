@@ -42,15 +42,22 @@
                 <p><i class="fab fa-linkedin"></i> 
                     <a href="http://www.linkedin.com/in/veena-shirsath" target="_blank">veena-shirsath</a>
                 </p>
+
+                <!-- Resume Button -->
+                <a href="Resume.pdf" target="_blank" class="resume-btn">
+                    <i class="fas fa-file-download"></i> Download Resume
+                </a>
             </div>
         </aside>
 
         <!-- Content Column -->
         <section class="content">
 
-            <!-- About -->
-            <section id="about">
-                <p>I'm a graduate student in Duke's MS in Economics and Computation program, where I focus on applying quantitative, 
+            <!-- ABOUT -->
+            <details open class="dropdown-section" id="about">
+                <summary>About Me</summary>
+                <p>
+                    I'm a graduate student in Duke's MS in Economics and Computation program, where I focus on applying quantitative, 
                     statistical, and machine learning methods to real‑world energy challenges. My interest in the energy sector began 
                     with my undergraduate thesis on demand flexibility using interval data, which sparked a broader commitment to energy 
                     transition and energy equity work.
@@ -65,12 +72,12 @@
                     market development, or energy and climate policy, where I can apply my technical training and interdisciplinary 
                     perspective to help accelerate the energy transition.
                 </p>
-            </section>
+            </details>
 
-            <!-- Education -->
-            <section id="education">
-                <h2>Education</h2>
-                                <ul>
+            <!-- EDUCATION -->
+            <details class="dropdown-section" id="education">
+                <summary>Education</summary>
+                <ul>
                     <li>
                         <h3>MS in Economics and Computation (Duke University, USA)</h3>
                         <ul>
@@ -94,11 +101,11 @@
                         </ul>
                     </li>
                 </ul>
-            </section>
+            </details>
 
-            <!-- Skills -->
-            <section id="skills">
-                <h2>Skills</h2>
+            <!-- SKILLS -->
+            <details class="dropdown-section" id="skills">
+                <summary>Skills</summary>
                 <ul>
                     <li><b>Programming Languages: </b>Python (PyTorch, Tensorflow, Scikit learn, Pyomo), R</li>
                     <li><b>Softwares: </b>STATA, QGIS, LaTeX, Tableau</li>
@@ -107,12 +114,11 @@
                         clustering and classification methods, time series analysis, geospatial analysis, image classification, 
                         structured LLM output, Linear Programming</li>
                 </ul>
+            </details>
 
-            </section>
-
-            <!-- Experience -->
-            <section id="work-experience">
-                <h2>Research / Work Experience</h2>
+            <!-- EXPERIENCE -->
+            <details class="dropdown-section" id="work-experience">
+                <summary>Research / Work Experience</summary>
                 <ul>
                     <li>
                         <h3>Energy Transition During Energy Crisis: Cape Town's Experience</h3>
@@ -210,17 +216,18 @@
                         </ul>
                     </li>
                 </ul>
-            </section>
+            </details>
 
-            <!-- Projects -->
-            <section id="projects">
-                <h2>Projects & Certifications</h2>
+            <!-- PROJECTS -->
+            <details class="dropdown-section" id="projects">
+                <summary>Projects & Certifications</summary>
                 <ul>
-                     <li>
+
+                    <li>
                         <h3>Energy in Emerging Markets Case Competition</h3>
                         <p><i>September 2024</i></p>
                         <ul>
-                             <li>Won 2nd prize out of 73 teams from universities around the world.
+                            <li>Won 2nd prize out of 73 teams from universities around the world.
                             </li>
                             <li>Organised by James E. Rogers Energy Access Project at Duke University
                             </li>
@@ -231,28 +238,38 @@
                             </li>
                         </ul>
                     </li>
+
                     <li>
                         <h3>Causal Inference in High-Dimensional Settings</h3>
-                        <p><i>Jan 2025 to May 2025</i></p>
+                        <p><i>Jan 2025 – May 2025</i></p>
+
+                        <a class="github-link" href="https://github.com/VeenaShirsath/ML-Causality" target="_blank">
+                            <i class="fab fa-github"></i> View Project on GitHub
+                        </a>
+
                         <ul>
-                             <li>Experimental study of causal matching methods to compare their performance with high dimensional datasets
+                            <li>Experimental study of causal matching methods to compare their performance with high dimensional datasets
                             </li>
                         </ul>
                     </li>
+
                     <li>
-                        <h3>NEBDHub & NSDC Transportation Data Science Project (TDSP)</h3>
+                        <h3>NEBDHub & NSDC Transportation Data Science Project</h3>
                         <p><i>January 2025</i></p>
+
                         <ul>
-                             <li>Leveraging a New York City OpenData transportation dataset to develop data-driven insights on how 
+                            <li>Leveraging a New York City OpenData transportation dataset to develop data-driven insights on how 
                                  roads can be made safer for all.
                             </li>
                             <li>Involved Time Series Analysis, Geospatial Analysis, and Data Visualization in Python using Google Collab, and Tableau.
                             </li>
                         </ul>
                     </li>
+
                     <li>
-                        <h3>Atlas of Behavior Change in Development (ABCD) Behaviour Data Hackathon</h3>
+                        <h3>Atlas of Behavior Change in Development (ABCD) Hackathon</h3>
                         <p><i>July 2024</i></p>
+
                         <ul>
                             <li>Studied unit-level demographic survey data for insights into health seeking behaviour based on socio-economic
                                 characteristics
@@ -263,26 +280,28 @@
                             </li>
                         </ul>
                     </li>
-                    <li>
-                       <h3>An Introduction to Climate Change: Science, Politics and Impacts </h3>
-                            <p>Center for Science and Enviroment (CSE), India</p>
-                            <p><i>February 2023</i></p>
-                    </li>
-                    <li>
-                       <h3>Low Carbon Pathways for Industrial Sectors</h3>
-                            <p>Center for Science and Enviroment (CSE), India</p>
-                            <p><i>February 2023</i></p>
-                    </li>
-                    <li>
-                        <h3>Stanford Environmental & Water Studies Summer Program (SEWSSP)</h3>
-                            <p>Stanford University</p>
-                            <p><i>October 2020</i></p>
-                    </li>
-                </ul>
-            </section>
 
-            <section id="leadership">
-                <h2>Leadership Experience</h2>
+                    <li>
+                        <h3>An Introduction to Climate Change</h3>
+                        <p><i>February 2023</i></p>
+                    </li>
+
+                    <li>
+                        <h3>Low Carbon Pathways for Industrial Sectors</h3>
+                        <p><i>February 2023</i></p>
+                    </li>
+
+                    <li>
+                        <h3>Stanford Environmental & Water Studies Summer Program</h3>
+                        <p><i>October 2020</i></p>
+                    </li>
+
+                </ul>
+            </details>
+
+            <!-- LEADERSHIP -->
+            <details class="dropdown-section" id="leadership">
+                <summary>Leadership Experience</summary>
                 <ul>
                     <li>
                         <h3>Co-Chair for Energy in Energy Markets Case Competition</h3>
@@ -329,11 +348,11 @@
                         </ul>
                     </li>
                 </ul>
-            </section>
+            </details>
 
-            <!-- Achievements -->
-            <section id="achievements">
-                <h2>Awards & Achievements</h2>
+            <!-- ACHIEVEMENTS -->
+            <details class="dropdown-section" id="achievements">
+                <summary>Awards & Achievements</summary>
                 <ul>
                     <li><h3>Duke Economics Master's Scholar Award</h3></li>
                     <li><h3>Narotam Sekhsaria Foundation Post-Graduate Scholar 2024</h3></li>
@@ -341,7 +360,7 @@
                     <li><h3>Dean's List for 2020-2021, 2021-22 [Ahmedabad University]</h3></li>
                     <li><h3>Presented Sustainable Waste Management initiative at the UN (2019)</h3></li>
                 </ul>
-            </section>
+            </details>
 
         </section>
     </div>
