@@ -1,130 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Veena Shirsath</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Veena Shirsath</title>
+
+  <!-- Fonts & Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <a href="#" class="navbar-brand">Veena Shirsath</a>
-            <div class="navbar-links">
-                <a href="#education">Education</a>
-                <a href="#skills">Skills</a>
-                <a href="#work-experience">Experience</a>
-                <a href="#projects">Projects</a>
-                <a href="#achievements">Achievements</a>
-            </div>
-        </div>
-    </nav>
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="container">
+    <a href="#" class="navbar-brand">Veena Shirsath</a>
 
-    <!-- Main Content -->
-    <div class="main-container">
+    <div class="navbar-contact">
+      <a href="mailto:veena.shirsath@duke.edu" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://github.com/VeenaShirsath" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/veena-shirsath" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="Resume.pdf" target="_blank" class="resume-link">Resume</a>
+    </div>
+  </div>
+</nav>
 
-        <!-- Sidebar -->
-        <aside class="sidebar">
-            <img src="veena_shirsath.jpg" alt="Veena Shirsath" class="profile-photo">
+<!-- MAIN -->
+<div class="main-container">
 
-            <div class="contact-info">
-                <h2>Contact Information</h2>
-                <p><i class="fas fa-envelope"></i>  
-                    <a href="mailto:veena.shirsath@duke.edu">veena.shirsath@duke.edu</a>
-                </p>
-                <p><i class="fab fa-github"></i> 
-                    <a href="https://github.com/VeenaShirsath" target="_blank">VeenaShirsath</a>
-                </p>
-                <p><i class="fab fa-linkedin"></i> 
-                    <a href="http://www.linkedin.com/in/veena-shirsath" target="_blank">veena-shirsath</a>
-                </p>
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <img src="veena_shirsath.jpg" alt="Veena Shirsath" class="profile-photo">
 
-                <!-- Resume Button -->
-                <a href="Resume.pdf" target="_blank" class="resume-btn">
-                    <i class="fas fa-file-download"></i> Download Resume
-                </a>
-            </div>
-        </aside>
+    <div class="contact-info">
+      <h2>Contact</h2>
+      <p><i class="fas fa-envelope"></i> <a href="mailto:veena.shirsath@duke.edu">veena.shirsath@duke.edu</a></p>
+      <p><i class="fab fa-github"></i> <a href="https://github.com/VeenaShirsath" target="_blank">VeenaShirsath</a></p>
+      <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/veena-shirsath" target="_blank">veena-shirsath</a></p>
 
-        <!-- Content Column -->
-        <section class="content">
+      <a href="Resume.pdf" target="_blank" class="resume-btn">
+        <i class="fas fa-file-download"></i> Download Resume
+      </a>
+    </div>
+  </aside>
 
-            <!-- ABOUT -->
-            <details open class="dropdown-section" id="about">
-                <summary>About Me</summary>
-                <p>
-                    I'm a graduate student in Duke's MS in Economics and Computation program, where I focus on applying quantitative, 
-                    statistical, and machine learning methods to real‑world energy challenges. My interest in the energy sector began 
-                    with my undergraduate thesis on demand flexibility using interval data, which sparked a broader commitment to energy 
-                    transition and energy equity work.
-                    
-                    My experience spans utility billing, interval, spatial, and climate data; econometric modeling; predictive modeling; 
-                    and energy systems analysis. I've worked on projects ranging from modeling solar adoption and load shedding, to 
-                    building automated pipelines for interval data insights, to storage optimization and financial analysis for energy 
-                    projects. 
-                    
-                    I'm passionate about using data‑driven approaches to support clean energy access, grid modernization, storage and 
-                    flexibility solutions and equitable energy systems. I'm actively seeking full‑time opportunities in energy analytics, 
-                    market development, or energy and climate policy, where I can apply my technical training and interdisciplinary 
-                    perspective to help accelerate the energy transition.
-                </p>
-            </details>
+    <!-- CONTENT -->
+  <section class="content">
 
-            <!-- EDUCATION -->
-            <details class="dropdown-section" id="education">
-                <summary>Education</summary>
-                <ul>
-                    <li>
-                        <h3>MS in Economics and Computation (Duke University, USA)</h3>
-                        <ul>
-                            <li><i>August 2024 - Present</i></li>
-                            <li>CGPA: 3.85/4.0</li>
-                            <li style="text-align: justify;"><b>Courses: </b>Econometrics, Advanced Microeconomic Analysis, Predictive Modelling, Asset 
-                                Pricing and Risk Management, Machine Learning, Deep Learning, Power Markets, ESG Investing</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3>BA (Hons) in Economics (Ahmedabad University, India)</h3>
-                        <ul>
-                            <li><i>September 2020 - May 2024</i></li>
-                            <li>CGPA: 3.78/4.0</li>
-                            <li style="text-align: justify;"><b>Relevant courses: </b>Intermediate Microeconomics, Intermediate Macroeconomics, 
-                                Economics of Health, Education and Labor, Models of Political Economy, Environmental and Resource Economics, 
-                                Time Series Econometrics, Empirical Methods in Economics, Industrial Organization, 
-                                Experimental and Behavioral Economics, Game Theory and its Applications, Economics of Labor and Discrimination, 
-                                Cities and Transport, Energy and Climate Change, Sustainable Development Goals, Fundamentals of Environmental Studies, 
-                                Air Quality</li>
-                        </ul>
-                    </li>
-                </ul>
-            </details>
+    <details open class="dropdown-section">
+      <summary>About Me</summary>
+      <p>
+        I'm a graduate student in Duke's MS in Economics and Computation program, where I focus on applying quantitative, 
+        statistical, and machine learning methods to complex energy‑system challenges. My interest in the energy sector 
+        began with my undergraduate thesis on demand flexibility using interval data, which sparked a broader commitment 
+        to energy transition and energy equity.            
+      </p>
+      <p>
+        My experience spans utility billing, interval, spatial, and climate datasets; econometric modeling; predictive 
+        modeling; and energy systems analysis. I have worked on projects involving solar adoption and load‑shedding behavior, 
+        automated pipelines for interval‑data insights, and simple residential battery storage optimization. I have also 
+        explored energy‑storage modeling for residential solar systems and am actively building deeper expertise in power 
+        systems optimization and modeling.
+      </p>
+      <p>
+        I am passionate about using rigorous, data‑driven methods to support grid modernization, clean energy access, 
+        storage and flexibility solutions, and equitable energy systems. I am seeking full‑time roles in energy analytics, 
+        power systems modeling, market development, or energy and climate policy, where I can apply my technical training 
+        and interdisciplinary perspective to accelerate the energy transition.
+     </p>
+    </details>
 
-            <!-- SKILLS -->
-            <details class="dropdown-section" id="skills">
-                <summary>Skills</summary>
-                <ul>
-                    <li><b>Programming Languages: </b>Python (PyTorch, Tensorflow, Scikit learn, Pyomo), R</li>
-                    <li><b>Softwares: </b>STATA, QGIS, LaTeX, Tableau</li>
-                    <li><b>Tools/Platforms: </b>Jupyter Notebook, Google Collab, BigQuery</li>
-                    <li><b>Data Science: </b>data visualization, data analytics, data cleaning, machine learning, deep learning, 
-                        clustering and classification methods, time series analysis, geospatial analysis, image classification, 
-                        structured LLM output, Linear Programming</li>
-                </ul>
-            </details>
+    <details class="dropdown-section" id="education">
+      <summary>Education</summary>
+      <ul>
+        <li>
+          <h3>MS in Economics and Computation — Duke University</h3>
+          <span class="meta">Aug 2024 – May 2026 | CGPA: 3.85/4.0</span>
+          <p><strong>Coursework:</strong> Econometrics, Advanced Microeconomic Analysis, Predictive Modelling, Asset Pricing and 
+            Risk Management, Machine Learning, Deep Learning, Power Markets, ESG Investing</p>
+        </li>
+        <li>
+          <h3>BA (Hons) in Economics — Ahmedabad University</h3>
+          <span class="meta">Sep 2020 – May 2024 | CGPA: 3.78/4.0</span>
+          <p><strong>Coursework:</strong> Intermediate Microeconomics, Intermediate Macroeconomics, Economics of Health, Education and 
+            Labor, Models of Political Economy, Environmental and Resource Economics, Time Series Econometrics, Empirical Methods 
+            in Economics, Industrial Organization, Experimental and Behavioral Economics, Game Theory and its Applications, 
+            Economics of Labor and Discrimination, Cities and Transport, Energy and Climate Change, Sustainable Development Goals, 
+            Fundamentals of Environmental Studies, Air Quality</p>
+        </li>
+      </ul>
+    </details>
 
-            <!-- EXPERIENCE -->
-            <details class="dropdown-section" id="work-experience">
-                <summary>Research / Work Experience</summary>
-                <ul>
-                    <li>
-                        <h3>Energy Transition During Energy Crisis: Cape Town's Experience</h3>
-                        <p>Duke University</p>
-                        <p><i>January - August 2025</i></p>
-                        <ul>
+    <details class="dropdown-section">
+      <summary>Skills</summary>
+      <ul>
+        <li><strong>Programming:</strong> Python (PyTorch, TensorFlow, Pyomo), R</li>
+        <li><strong>Tools:</strong> STATA, QGIS, LaTeX, Tableau, BigQuery</li>
+        <li><strong>Methods:</strong> data analytics, Machine Learning, Deep Learning, Econometrics, Time Series Econometrics, Causal Inference,
+            Linear Programming</li>
+      </ul>
+    </details>
+
+    <details class="dropdown-section">
+      <summary>Work and Research Experience</summary>
+      <ul>
+        <li>
+            <h3>Energy Transition During Energy Crisis: Cape Town's Experience — Duke University</h3>
+                        <span class="meta"> January 2025- May 2026</span>
                             <li>Project under Prof. Marc Jeuland, associated with the James E. Rogers Energy Access Project at Duke University.
                             </li> 
                             <li>Using electricity utility billing data along with climate, land parcel, and solar panel adoption data to understand 
@@ -132,38 +118,29 @@
                             </li>
                             <li>Research on equity-related concerns of impact of load shedding and solar PV, and connections to Cape Town's Just Transition goals 
                             </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3>Data Science Intern</h3>
-                        <p>Nimble Energy, US</p>
-                        <p><i>May 2025 – July 2025</i></p>
-                        <ul>
-                            <li>Preliminary data analysis for facility interval data: custom outlier detection strategies, identify load characteristics
-                            </li>
-                            <li>Built schedule detection and anomaly detection models for building/facility interval data 
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3>Undergraduate Thesis</h3>
-                        <p>Ahmedabad University</p>
-                        <p><i>August 2023 - May 2024</i></p>
-                        <ul>
-                            <li>Developed different Machine Learning models to predict appliance use based on total household sub-hourly energy 
-                                consumption using Python. This study falls under the field of Non-intrusive Load Monitoring (NILM) -  a key stage
-                                for grid interactivity and renewable energy integration.
+        </li>
+        <li>
+          <h3>Data Science Intern — Nimble Energy</h3>
+          <span class="meta">May 2025 – Jul 2025</span>
+            <li>Preliminary data analysis for facility interval data: custom outlier detection strategies, identify load characteristics
+            </li>
+            <li>Built schedule detection and anomaly detection models for building/facility interval data 
+            </li>
+        </li>
+        <li>
+          <h3>Undergraduate Thesis — Ahmedabad University</h3>
+          <span class="meta">Aug 2023 – May 2024</span>
+          <li>Developed different Machine Learning models to predict appliance use based on total household sub-hourly energy 
+            consumption using Python. This study falls under the field of Non-intrusive Load Monitoring (NILM) -  a key stage
+            for grid interactivity and renewable energy integration.
                             </li>
                             <li>Training accuracy of LSTM (best) model: 98%, Test accuracy of LSTM (best) model: 75%
                             </li>
                             <li>Presented the poster at the ECEEE 2024 Summer Study on energy efficiency held in France. </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3>Summer Research Fellow</h3>
-                        <p>ps Collective, Ahmedabad, India</p>
-                        <p><i>May 2023 - July 2023</i></p>
-                        <ul>
+        </li>
+        <li>
+            <h3>Summer Research Fellow — ps Collective, India</h3>
+            <span class="meta">May 2023 - July 2023</span>
                             <li>Experimented with geo-spatial visualizations of climactic suitability of a low-carbon technology using Python, 
                                 Streamlit and HTML.
                             </li>
@@ -173,13 +150,10 @@
                             <li>Undertook (1) extensive literature review of load curve research and application of smart meter data, and 
                                 (2) Electricity regulation scenario and future policy requirements at national level.
                             </li>
-                        </ul>
                     </li>
                     <li>
-                        <h3>Summer Intern</h3>
-                        <p>Bandhu Urban Tech, Ahmedabad, India</p>
-                        <p><i>May 2022 - July 2022</i></p>
-                        <ul>
+                        <h3>Summer Intern — Bandhu Urban Tech, India</h3>
+                        <span class="meta">May 2022 - July 2022</span>
                             <li>Conducted field studies in industrial workers' residential areas to understand migrant living conditions, 
                                 low-income housing costs and characteristics
                             </li>
@@ -189,44 +163,34 @@
                             <li>Undertook analysis and visualization of platform data in R. This involved spatial maps for migration 
                                 behaviour and network analysis as well.
                             </li>
-                        </ul>
                     </li>
                     <li>
-                        <h3>Research Assistant</h3>
-                        <p>Ahmedabad University, Ahmedabad, India</p>
-                        <p><i>May 2021 - August 2021</i></p>
-                        <ul>
+                        <h3>Research Assistant — Ahmedabad University</h3>
+                        <span class="meta">May 2021 - August 2021</span>
                             <li>Collected qualitative and quantitative data from various sources like NFHS, Census, and news articles. 
                                 Reconcilled information from both sources to inform empirical strategy of the research.
                             </li>
                             <li>Conducted data visualization data using Python and QGIS.
                             </li>
-                        </ul>
                     </li>
                     <li>
-                        <h3>Independent research project</h3>
-                        <p>National Academy for Learning, Bangalore, India</p>
-                        <p><i>July 2019 – March 2020</i></p>
-                        <ul>
+                        <h3>Independent research project — NAFL, India</h3>
+                        <span class="meta">July 2019 – March 2020</span>
                             <li>Year-long research project on sustainability, financial feasibility and social acceptability of 
                                 waste-to-energy projects for municipal solid waste.
                             </li>
                             <li>Conducted extensive cross-disciplinary literate review and stakeholder interviews to write a report.
                             </li>
-                        </ul>
                     </li>
-                </ul>
-            </details>
+      </ul>
+    </details>
 
-            <!-- PROJECTS -->
-            <details class="dropdown-section" id="projects">
-                <summary>Projects & Certifications</summary>
-                <ul>
-
-                    <li>
+    <details class="dropdown-section" id="projects">
+        <summary>Projects & Certifications</summary>
+        <ul>
+            <li>
                         <h3>Energy in Emerging Markets Case Competition</h3>
-                        <p><i>September 2024</i></p>
-                        <ul>
+                        <span class="meta">September 2024</span>
                             <li>Won 2nd prize out of 73 teams from universities around the world.
                             </li>
                             <li>Organised by James E. Rogers Energy Access Project at Duke University
@@ -236,41 +200,33 @@
                             </li>
                             <li>Studied Ugandan electricity market and policies to design appropriate solutions for a battery swapping network
                             </li>
-                        </ul>
                     </li>
 
                     <li>
                         <h3>Causal Inference in High-Dimensional Settings</h3>
-                        <p><i>Jan 2025 – May 2025</i></p>
+                        <span class="meta">Jan 2025 – May 2025</span>
 
                         <a class="github-link" href="https://github.com/VeenaShirsath/ML-Causality" target="_blank">
                             <i class="fab fa-github"></i> View Project on GitHub
                         </a>
-
-                        <ul>
                             <li>Experimental study of causal matching methods to compare their performance with high dimensional datasets
                             </li>
-                        </ul>
                     </li>
 
                     <li>
                         <h3>NEBDHub & NSDC Transportation Data Science Project</h3>
-                        <p><i>January 2025</i></p>
-
-                        <ul>
+                        <span class="meta">January 2025</span>
                             <li>Leveraging a New York City OpenData transportation dataset to develop data-driven insights on how 
                                  roads can be made safer for all.
                             </li>
                             <li>Involved Time Series Analysis, Geospatial Analysis, and Data Visualization in Python using Google Collab, and Tableau.
                             </li>
-                        </ul>
                     </li>
 
                     <li>
                         <h3>Atlas of Behavior Change in Development (ABCD) Hackathon</h3>
-                        <p><i>July 2024</i></p>
+                        <span class="meta">July 2024</span>
 
-                        <ul>
                             <li>Studied unit-level demographic survey data for insights into health seeking behaviour based on socio-economic
                                 characteristics
                             </li>
@@ -278,49 +234,27 @@
                             </li>
                             <li>Project conducted using R programming
                             </li>
-                        </ul>
                     </li>
 
-                    <li>
-                        <h3>An Introduction to Climate Change</h3>
-                        <p><i>February 2023</i></p>
-                    </li>
+</details>
 
-                    <li>
-                        <h3>Low Carbon Pathways for Industrial Sectors</h3>
-                        <p><i>February 2023</i></p>
-                    </li>
-
-                    <li>
-                        <h3>Stanford Environmental & Water Studies Summer Program</h3>
-                        <p><i>October 2020</i></p>
-                    </li>
-
-                </ul>
-            </details>
-
-            <!-- LEADERSHIP -->
-            <details class="dropdown-section" id="leadership">
-                <summary>Leadership Experience</summary>
+<!-- LEADERSHIP -->
+ <details class="dropdown-section" id="leadership">
+<summary>Leadership Experience</summary>
                 <ul>
                     <li>
                         <h3>Co-Chair for Energy in Energy Markets Case Competition</h3>
-                        <p>Duke University</p>
-                        <p><i>May 2025 – November 2025</i></p>
-                        <ul>
+                        <span class="meta">May 2025 – November 2025</span>
                             <li>International case campetition on energy markets open for all graduate students
                             </li>
                             <li>Responsibilities include onboarding a case partner, case preparation, logistics and outreach
                             </li>
                             <li>More information on the case competition <a href="https://energyweekatduke.org/" target="_blank">here</a></p>
                             </li>
-                        </ul> 
                     </li>
                     <li>
-                        <h3>Secretary & Student club representative to Student Activities Committee</h3>
-                        <p>Environment Club, Ahmedabad University</p>
-                        <p><i>August 2021 – May 2023</i></p>
-                        <ul>
+                        <h3>Secretary of Environment Club, Ahmedabad University & Student club representative to Student Activities Committee</h3>
+                        <span class="meta">August 2021 – May 2023</span>
                             <li>Responsibilities include team building, event planning, and delegation.
                             </li>
                             <li>Organized the Circular Economy Conference with several accomplished professionals from the industry
@@ -331,39 +265,31 @@
                             </li>
                             <li>Managed and organized large university-wide events
                             </li>
-                        </ul>
                     </li>
                     
                     <li>
-                        <h3>Local sustainable waste management project</h3>
-                        <p>1M1B Foundation, Bangalore, India</p>
-                        <p><i>July 2018 – March 2019</i></p>
-                        <ul>
+                        <h3>Local sustainable waste management project — 1M1B Foundation, India</h3>
+                        <span class="meta">July 2018 – March 2019</span>
                             <li>Awareness on urban waste management in schools and housing societies
                             </li>
                             <li>Reached out to more than 150 students in 3 schools and in community
                             </li>
                             <li>Presented the initiative at the 1M1B Activate Impact Summit, United Nations, New York
                             </li>
-                        </ul>
                     </li>
                 </ul>
             </details>
-
-            <!-- ACHIEVEMENTS -->
+   <!-- ACHIEVEMENTS -->
             <details class="dropdown-section" id="achievements">
                 <summary>Awards & Achievements</summary>
-                <ul>
                     <li><h3>Duke Economics Master's Scholar Award</h3></li>
                     <li><h3>Narotam Sekhsaria Foundation Post-Graduate Scholar 2024</h3></li>
                     <li><h3>Student Award for Outstanding Performance and Impact on Community [Ahmedabad University]</h3></li>
                     <li><h3>Dean's List for 2020-2021, 2021-22 [Ahmedabad University]</h3></li>
                     <li><h3>Presented Sustainable Waste Management initiative at the UN (2019)</h3></li>
-                </ul>
             </details>
-
-        </section>
-    </div>
+</section>
+</div>
 
 </body>
 </html>
