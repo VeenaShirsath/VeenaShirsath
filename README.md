@@ -5,6 +5,7 @@
 - I am interested in climate-related risk, energy transition, circular economy, and adaptation and mitigation finance/policy
 
 Repositories include:
+* Production Cost Modelling using real-life data
 * linear optimization for power systems (coursework)
 * Optimization in power systems (independent study in PyPSA)
 * Non-Intrusive Load Monitoring Models
